@@ -167,10 +167,10 @@
     edible: Drink
     solution: waterTank
     destroyOnEmpty: false
-  - type: SolutionContainerManager
-    solutions:
-      waterTank:
-        maxVol: 30
+  - type: Solution
+    id: waterTank
+    solution:
+      maxVol: 30
   - type: RefillableSolution
     solution: waterTank
   - type: ExaminableSolution
